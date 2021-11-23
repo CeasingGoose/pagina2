@@ -1,0 +1,116 @@
+body{
+	background: url("../imagenes/fondo23.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+div.foto{
+	margin: 100px 150px 30px;
+	box-shadow: 4px 4px 4px 4px #00C2FA;
+	width: 300px;
+	height: 150px;
+}
+div.foto2{
+	margin: 100px 150px 30px;
+	box-shadow: 4px 4px 4px 4px #00C2FA;
+	width: 300px;
+	height: 175px;
+}
+div.foto3{
+	margin: 100px 150px 30px;
+	box-shadow: 4px 4px 4px 4px #00C2FA;
+	width: 375px;
+	height: 150px;
+}
+
+div.inf{
+	background-color: #F8F8FF;
+	color: black;
+	text-align: center;
+	text-shadow: 2px 1px 3px white;
+	box-shadow: 4px 4px 4px 4px #00C2FA;
+	width: 75%;
+	height: 100px;
+}
+div.titulo{
+	text-align: center;
+	text-shadow: 2px 1px 3px grey;
+	margin: 0px 150px 25px;
+	color: white;
+	font-weight: bold;
+}
+
+div.foto:hover{
+	transform: rotate(-3deg);
+}
+div.foto2:hover{
+	transform: rotate(-3deg);
+}
+div.foto3:hover{
+	transform: rotate(-3deg);
+}
+
+
+
+
+
+.menu a:hover{
+	background: #A0EDFF;
+}
+
+.menu a{
+	padding: 12px 20px;
+}
+
+*{/*Selector universal*/
+	margin: 0;
+	padding: 0;
+}
+
+.menu a{
+	text-decoration: none; /*le quita el subrayado*/
+	font-size: 20px; /*tamaño de letra*/
+	color: white; /*cambio de color*/
+	padding: 12px 20px;
+	display: block;
+}
+.menu nav div img{
+	width: 60px;
+	border-radius: 50%;
+}
+.menu{
+	background: #00BFFF;
+}
+
+.menu nav{
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu nav ul li ul{
+	display: flex;
+	flex-direction: column;
+}
+
+.menu nav ul li ul{
+	position: absolute;
+	background: #05d9e8;
+}
+
+.menu nav ul li ul li{
+	width: 180px;
+	position: relative;
+}
+
+.menu nav ul li ul{
+	display: none;
+}
+
+.menu nav ul li:hover > ul{
+	display: block;
+}

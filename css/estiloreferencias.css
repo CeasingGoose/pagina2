@@ -1,0 +1,104 @@
+body{
+	background: url("../imagenes/fondo23.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+div.centro{
+	margin: 0;
+	padding: 0;
+}
+div.foto{
+	margin: 15px 50px 15px;
+	box-shadow: 4px 4px 4px 4px #00C2FA;
+	width: 150px;
+	height: 100px;
+}
+div.foto1{
+	margin: 35px 50px 15px;
+	box-shadow: 4px 4px 4px 4px #00C2FA;
+	width: 150px;
+	height: 100px;
+}
+div.foto3{
+	background-color: white;
+	margin: 100px 150px 30px;
+	box-shadow: 4px 4px 4px 4px #00C2FA;
+	width: 400px;
+	height: 75px;
+}
+.inf{
+	color: black;
+	text-align: left;
+	text-shadow: 2px 1px 3px white;
+	height: content;
+}
+
+div.foto:hover{
+	transform: rotate(-3deg);
+}
+
+
+
+
+
+
+.menu a:hover{
+	background: #A0EDFF;
+}
+
+.menu a{
+	padding: 12px 20px;
+}
+
+*{/*Selector universal*/
+	margin: 0;
+	padding: 0;
+}
+
+.menu a{
+	text-decoration: none; /*le quita el subrayado*/
+	font-size: 20px; /*tamaño de letra*/
+	color: white; /*cambio de color*/
+	padding: 12px 20px;
+	display: block;
+}
+.menu nav div img{
+	width: 60px;
+	border-radius: 50%;
+}
+.menu{
+	background: #00BFFF;
+}
+
+.menu nav{
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu nav ul li ul{
+	display: flex;
+	flex-direction: column;
+}
+
+.menu nav ul li ul{
+	position: absolute;
+	background: #05d9e8;
+}
+
+.menu nav ul li ul li{
+	width: 180px;
+	position: relative;
+}
+
+.menu nav ul li ul{
+	display: none;
+}
+
+.menu nav ul li:hover > ul{
+	display: block;
+}
